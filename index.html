@@ -80,3 +80,7 @@ render();
 </script>
 </body>
 </html>
+supabase.rpc('reserve_gift', {
+  p_gift_id: giftId,
+  p_name: guestName
+})
